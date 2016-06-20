@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="mystyle.css" />
+    <title>Opacity</title>
+  </head>
+  <body>
+
+    <h1>Image Transparency</h1>
+    <p>The opacity property is often used together with the :hover selector to change the opacity on mouse-over:</p>
+    <img src="img_forest.jpg" alt="Forest" width="170" height="100">
+    <img src="img_mountains.jpg" alt="Mountains" width="170" height="100">
+    <img src="img_fjords.jpg" alt="Fjords" width="170" height="100">
+
+    <p><b>Note:</b> In IE, a !DOCTYPE must be added for the :hover selector to work on other elements than the a element.</p>
+
+    <h1>Transparent Box</h1>
+    <p>With opacity:</p>
+    <div style="opacity:0.1;"><p>10% opacity</p></div>
+    <div style="opacity:0.3;"><p>30% opacity</p></div>
+    <div style="opacity:0.6;"><p>60% opacity</p></div>
+    <div><p>opacity 1</p></div>
+
+    <p>With RGBA color values:</p>
+    <div class="first"><p>10% opacity</p></div>
+    <div class="second"><p>30% opacity</p></div>
+    <div class="third"><p>60% opacity</p></div>
+    <div><p>default</p></div>
+
+    <p>Notice how the text gets transparent as well as the background color when using the opacity property.</p>
+
+    <div class="background">
+      <div class="transbox">
+        <p>This is some text that is placed in the transparent box.</p>
+      </div>
+    </div>
+    
+  </body>
+</html>
